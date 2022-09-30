@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP02.Views.ListView">
+    <ContentPage.Content>
+        <StackLayout>
+            
+                <Entry x:Name="ID" Placeholder="ID"/>
+                <Entry x:Name="Descricao" Placeholder="Descrição"/>
+                <Entry x:Name="Categoria" Placeholder="Categoria"/>
+                <Entry x:Name="Quantidade" Placeholder="Quantidade"/>
+                <Entry x:Name="Preco" Placeholder="Preço"/>
+
+
+                <Button Text="Enviar" Clicked="VerProduto"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
